@@ -19,6 +19,12 @@ body {
 
 /* header  */
 header {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     background-color: #fe7d00;
     box-shadow: 1px 1px 5px #444851;
 }
@@ -97,7 +103,7 @@ header nav .icons i {
 
 
     /* test  */
-    border: solid black;
+    /* border: solid black; */
 }
 
 .container-main .img-box {
@@ -107,7 +113,7 @@ header nav .icons i {
     max-width: 335px;
 
     /* test  */
-    border: solid black;
+    /* border: solid black; */
 }
 
 .prd-1 {
@@ -163,4 +169,32 @@ header nav .icons i {
 
 .whole-price {
     text-decoration: line-through;
+}
+
+.container-main .tag-position {
+    position: relative;
+}
+
+.container-main .tags {
+
+    display: flex;
+    z-index: 1;
+    gap: 10px;
+    position: absolute;
+    bottom: 126px;
+
+}
+
+.discount-amount {
+    padding: 5px;
+    font-size: small;
+    color: white;
+    background-color: red;
+}
+
+.tag-type {
+    padding: 5px;
+    font-size: small;
+    color: white;
+    background-color: green;
 }
