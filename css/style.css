@@ -261,3 +261,22 @@ footer {
 .container-footer #info-top-right {
     margin-bottom: 12px;
 }
+
+.socials {
+    display: flex;
+    gap: 20px;
+
+}
+
+.socials a {
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+
+.socials a #facebook-link {
+    padding-right: 2px;
+    padding-left: 2px;
+}
