@@ -11,6 +11,13 @@ body {
     font-family: sans-serif;
 }
 
+
+
+
+
+
+
+/* header  */
 header {
     background-color: #fe7d00;
     box-shadow: 1px 1px 5px #444851;
@@ -18,13 +25,11 @@ header {
 
 header nav {
     padding-top: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .container {
 
-    max-width: 1440px;
+    max-width: 1035px;
     margin-left: auto;
     margin-right: auto;
 
@@ -67,4 +72,95 @@ header nav .icons {
 header nav .icons i {
     color: white;
 
+}
+
+/* end header  */
+
+
+
+
+
+/* main  */
+
+.container-main {
+    max-width: 1035px;
+    min-width: 1035px;
+    height: auto;
+    padding-top: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    /* test  */
+    border: solid black;
+}
+
+.container-main .img-box {
+    width: 335px;
+    height: 480px;
+    min-width: 335px;
+    max-width: 335px;
+
+    /* test  */
+    border: solid black;
+}
+
+.prd-1 {
+    background-image: url('../img/1.webp');
+    background-size: cover;
+}
+
+.prd-2 {
+    background-image: url('../img/2.webp');
+    background-size: cover;
+}
+
+.prd-3 {
+    background-image: url('../img/3.webp');
+    background-size: cover;
+}
+
+.prd-4 {
+    background-image: url('../img/4.webp');
+    background-size: cover;
+}
+
+.prd-5 {
+    background-image: url('/img/5.webp');
+    background-size: cover;
+}
+
+.prd-6 {
+    background-image: url('/img/6.webp');
+    background-size: cover;
+}
+
+.pdr-description {
+    margin-bottom: 34px;
+}
+
+.brand {
+    font-size: medium;
+}
+
+.model {
+    font-size: 1.2em;
+}
+
+.price-row {
+    display: flex;
+    gap: 5px;
+}
+
+.discount-price {
+    color: red;
+}
+
+.whole-price {
+    text-decoration: line-through;
 }
