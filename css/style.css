@@ -87,12 +87,14 @@ header nav .icons i {
 
 
 /* main  */
+main {
+    margin-top: 63.5px;
+}
 
 .container-main {
     max-width: 1035px;
     min-width: 1035px;
     height: auto;
-    padding-top: 15px;
 
     margin-left: auto;
     margin-right: auto;
@@ -101,12 +103,12 @@ header nav .icons i {
     justify-content: space-between;
     flex-wrap: wrap;
 
-
     /* test  */
     /* border: solid black; */
 }
 
 .container-main .img-box {
+    margin-top: 45px;
     width: 335px;
     height: 480px;
     min-width: 335px;
@@ -176,7 +178,6 @@ header nav .icons i {
 }
 
 .container-main .tags {
-
     display: flex;
     z-index: 1;
     gap: 10px;
@@ -197,4 +198,19 @@ header nav .icons i {
     font-size: small;
     color: white;
     background-color: green;
+}
+
+.container-main .heart-row {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    top: 55px;
+}
+
+.container-main .heart-row #heart-tag {
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+
+    background-color: white;
 }
