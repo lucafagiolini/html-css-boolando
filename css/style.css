@@ -232,6 +232,29 @@ main {
     background-size: cover;
 }
 
+#pdr-alt-4 {
+    background-image: url('../img/4b.webp');
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: .3s;
+}
+
+.container-main .tag-position #pdr-alt-4:nth-of-type(2) {
+    background-image: url('../img/4b.webp');
+    background-size: cover;
+
+    opacity: 0;
+}
+
+.container-main .tag-position:hover #pdr-alt-4:nth-of-type(2) {
+    opacity: 1;
+
+}
+
 /* end pdr-4 */
 
 
@@ -243,6 +266,29 @@ main {
     background-size: cover;
 }
 
+#pdr-alt-5 {
+    background-image: url('../img/5b.webp');
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: .3s;
+}
+
+.container-main .tag-position #pdr-alt-5:nth-of-type(2) {
+    background-image: url('../img/5b.webp');
+    background-size: cover;
+
+    opacity: 0;
+}
+
+.container-main .tag-position:hover #pdr-alt-5:nth-of-type(2) {
+    opacity: 1;
+
+}
+
 /* end pdr-5 */
 
 
@@ -251,6 +297,29 @@ main {
 .prd-6 {
     background-image: url('/img/6.webp');
     background-size: cover;
+}
+
+#pdr-alt-6 {
+    background-image: url('../img/6b.webp');
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: .3s;
+}
+
+.container-main .tag-position #pdr-alt-6:nth-of-type(2) {
+    background-image: url('../img/6b.webp');
+    background-size: cover;
+
+    opacity: 0;
+}
+
+.container-main .tag-position:hover #pdr-alt-6:nth-of-type(2) {
+    opacity: 1;
+
 }
 
 /* end pdr-6 */
