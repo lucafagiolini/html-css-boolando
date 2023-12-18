@@ -118,35 +118,150 @@ main {
     /* border: solid black; */
 }
 
+
+
+
+/* img box and hover behavior rule */
+
+
+/* pdr-1 */
 .prd-1 {
     background-image: url('../img/1.webp');
     background-size: cover;
 }
 
+#pdr-alt-1 {
+    background-image: url('../img/1b.webp');
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: .3s;
+}
+
+.container-main .tag-position #pdr-alt-1:nth-of-type(2) {
+    background-image: url('../img/1b.webp');
+    background-size: cover;
+
+    opacity: 0;
+}
+
+.container-main .tag-position:hover #pdr-alt-1:nth-of-type(2) {
+    opacity: 1;
+
+}
+
+/* end pdr-1 */
+
+
+
+
+/* pdr-2 */
 .prd-2 {
     background-image: url('../img/2.webp');
     background-size: cover;
 }
+
+#pdr-alt-2 {
+    background-image: url('../img/2b.webp');
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: .3s;
+}
+
+.container-main .tag-position #pdr-alt-2:nth-of-type(2) {
+    background-image: url('../img/2b.webp');
+    background-size: cover;
+
+    opacity: 0;
+}
+
+.container-main .tag-position:hover #pdr-alt-2:nth-of-type(2) {
+    opacity: 1;
+
+}
+
+/* end pdr-2 */
+
+
+
+/* pdr-3 */
 
 .prd-3 {
     background-image: url('../img/3.webp');
     background-size: cover;
 }
 
+#pdr-alt-3 {
+    background-image: url('../img/3b.webp');
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: .3s;
+}
+
+.container-main .tag-position #pdr-alt-3:nth-of-type(2) {
+    background-image: url('../img/3b.webp');
+    background-size: cover;
+
+    opacity: 0;
+}
+
+.container-main .tag-position:hover #pdr-alt-3:nth-of-type(2) {
+    opacity: 1;
+
+}
+
+/* end pdr-3 */
+
+
+
+
+/* pdr-4 */
 .prd-4 {
     background-image: url('../img/4.webp');
     background-size: cover;
 }
 
+/* end pdr-4 */
+
+
+
+
+/* pdr-5 */
 .pdr-5 {
     background-image: url('/img/5.webp');
     background-size: cover;
 }
 
+/* end pdr-5 */
+
+
+
+/* pdr-6 */
 .prd-6 {
     background-image: url('/img/6.webp');
     background-size: cover;
 }
+
+/* end pdr-6 */
+
+/* end img box and hover behavior rule */
+
+
+
+
+
+
 
 .pdr-description {
     margin-bottom: 34px;
