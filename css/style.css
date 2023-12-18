@@ -2,13 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-
 }
 
 /* reset */
 body {
     font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -337,11 +339,11 @@ main {
 }
 
 .brand {
-    font-size: medium;
+    font-size: small;
 }
 
 .model {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .price-row {
@@ -430,6 +432,10 @@ footer {
 .footer-left-info {
     display: flex;
     justify-content: start;
+}
+
+#classe-info {
+    color: white;
 }
 
 .footer-right-info {
